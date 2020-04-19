@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+   "actix_web",
+   "warp",
+]
+
+[profile.release]
+lto = true
